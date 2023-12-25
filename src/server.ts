@@ -7,7 +7,7 @@ import cors from 'cors';
 import { typeDefs, resolvers } from './schema';
 import DotEnv from 'dotenv';
 
-DotEnv.config();
+// DotEnv.config();
 
 async function bootstrap() {
 
